@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+    height: 800px;
+    margin: auto;
+    background-color: antiquewhite;
+    font-family: "Nunito", sans-serif;
+}
+
+.topb-band {
+    height: 5%;
+    width: 100%;
+    background-color: black;    
+}
+
+.topb-band h3{
+    padding-top: 8px;
+}
+
+.logo {
+    color: white;
+    padding-left: 50px;
+    float: left;
+    width: 50%;    
+}
+
+a {
+    text-decoration: none;
+    color: white;  
+}
+
+a:hover {
+    color: darkorange;
+}
+
+ul li:hover {
+    background-color: rgb(36, 34, 34);
+    
+}
+
+ul li{
+  list-style: none;
+  display: inline; 
+  margin-left: 25px;
+  padding: 10px;
+}
+
+.nav {
+    float: right;
+    width: 50%;
+}
+
+ul{
+    float: right;
+    padding-right:50px;
+    padding-top: 8px;
+}
+
+.contact {
+    height: 70%;
+    width: 100%;
+    background-color: white;    
+}
+
+.contact h3 {
+    margin-left: 50px;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.cont {
+    color: darkorange;
+}
+
+.contact p {
+    margin-left: 50px;
+    padding-bottom: 15px;
+}
+
+.footer {
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+}
+
+.footer p{
+    color: white;
+    padding: 10px 25px;
+}
+
+.form {
+    height: 80%;
+    width: 100%;
+    background-color: white;
+}
+
+label, input, textarea{
+    margin-left: 50px;
+   
+}
+
+textarea {
+    width: 94%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 16px;
+}
+
+input {
+    width: 94%;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    height: 30px;
+}
+
+.location, .phonenumber, .emailaddress{
+    height: 30%;
+    width: 33.3%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.location {
+    background-color: black;  
+    color: white;  
+}
+
+.location h4{
+    font-size: 21px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+
+.location p{
+    margin: 15px;
+    font-size: 15px;
+}
+
+.phonenumber {
+    background-color: black; 
+    color: white;   
+}
+
+.phonenumber h4{
+    font-size: 21px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+
+.phonenumber  p{
+    margin: 15px;
+    font-size: 15px;
+}
+
+.emailaddress {
+    background-color: black;
+    color: white;
+}
+
+.emailaddress h4{
+    font-size: 21px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+
+.emailaddress p{
+    margin: 15px;
+    font-size: 15px;
+}
+
+.btn{
+    padding: 10px 25px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 18px;
+}

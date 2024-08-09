@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+    height: 1000px;
+    margin: auto;
+    background-color: antiquewhite;
+    font-family: "Nunito", sans-serif;
+}
+
+.topb-band {
+    height: 5%;
+    width: 100%;
+    background-color: black;    
+}
+
+.topb-band h3{
+    padding-top: 8px;
+}
+
+.logo {
+    color: white;
+    padding-left: 50px;
+    float: left;
+    width: 50%;    
+}
+
+a {
+    text-decoration: none;
+    color: white;  
+}
+
+a:hover {
+    color: darkorange;
+}
+
+ul li:hover {
+    background-color: rgb(36, 34, 34);
+    
+}
+
+ul li{
+  list-style: none;
+  display: inline; 
+  margin-left: 25px;
+  padding: 10px;
+}
+
+.nav {
+    float: right;
+    width: 50%;
+}
+
+ul{
+    float: right;
+    padding-right:50px;
+    padding-top: 8px;
+}
+
+.about {
+    width: 100%;
+    height: 40%;
+    background-color: white;
+}
+
+.about h3{
+    padding-top: 20px;
+    margin-left: 0px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.text-head {
+    color: darkorange;
+}
+
+.text {
+    width: 50%;
+    height: 40%;
+    text-align: left;
+    margin-left: 50px;
+    line-height: 20px;
+    float: left;
+    padding-top: 20px;
+}
+
+.picture {
+    width: 30%;
+    height: 40%;
+    background-image: url('../pictures/photo-2.jpg');
+    background-position:center;
+    background-size: cover;
+    margin-right: 40px;
+    float: right;
+    border-radius: 50%; 
+    margin-top: 20px;   
+}
+
+.comments {
+    height: 52%;
+    width: 100%;
+    background-image: url('../pictures/test-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.comments h3{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+
+.person-one, .person-two{
+    width: 90%;
+    height: 18%;
+    background-color: darkorange;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.person-one-pix, .person-two-pix{
+    width: 10%;
+    height: 85%;
+    float: left;
+    border-radius: 50%;
+    margin: 8px;
+    background-color: blue;
+}
+
+.person-one-text, .person-two-text{
+    width: 85%;
+    float: right;
+    margin-top: 15px;
+}
+
+.person-one-pix{
+    background-image: url('../pictures/person-1.jpg');
+    background-size: cover;
+}
+
+.person-two-pix{
+    background-image: url('../pictures/person-2.jpg');
+    background-size: cover;
+}
+
+.footer {
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+}
+
+.footer p{
+    color: white;
+    padding: 10px 25px;
+}
