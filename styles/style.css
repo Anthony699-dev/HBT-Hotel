@@ -202,6 +202,12 @@ ul{
 
 @media (max-width:500px){
     ul li{ 
-        margin-left: 5px;
+        margin-left: 1px;
+        padding: 5px;
+    }
+
+    .container{
+        width: 100vw;
+        height: 1220px;
     }
 }
