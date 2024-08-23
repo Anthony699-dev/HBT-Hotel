@@ -26,7 +26,7 @@
     color: white;
     padding-left: 50px;
     float: left;
-    width: 50%;    
+    width: 30%;    
 }
 
 a {
@@ -52,7 +52,7 @@ ul li{
 
 .nav {
     float: right;
-    width: 50%;
+    width: 70%;
 }
 
 ul{
@@ -94,7 +94,7 @@ ul{
 
 .form {
     height: 80%;
-    width: 100%;
+    width: 100vw;
     background-color: white;
 }
 
@@ -104,7 +104,7 @@ label, input, textarea{
 }
 
 textarea {
-    width: 94%;
+    width: 90vw;
     height: 200px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -114,7 +114,7 @@ textarea {
 }
 
 input {
-    width: 94%;
+    width: 90vw;
     border: 2px solid #ccc;
     border-radius: 3px;
     height: 30px;
@@ -185,4 +185,16 @@ input {
     border: none;
     color: white;
     font-size: 18px;
+}
+
+@media (max-width:500px){
+    ul li{ 
+        margin-left: 1px;
+        padding: 5px;
+    }
+
+    .container{
+        width: 100vw;
+        height: 1220px;
+    }
 }
